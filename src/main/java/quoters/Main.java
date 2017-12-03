@@ -7,9 +7,9 @@ public class Main {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("context.xml");
 
 //        while (true) {
-            Thread.sleep(3000);
+//            Thread.sleep(3000);
 //            context.getBean(TerminatorQuoter.class).sayQuote(); // по классу не правильно, лучше по интерфейсу
-            context.getBean(Quoter.class).sayQuote();
+//            context.getBean(Quoter.class).sayQuote();
 //        }
 
     }

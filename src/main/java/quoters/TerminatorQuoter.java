@@ -2,6 +2,7 @@ package quoters;
 
 import javax.annotation.PostConstruct;
 
+@DeprecatedClass(newImpl = T1000.class)
 @Profiling
 public class TerminatorQuoter implements Quoter {
     private String message;
