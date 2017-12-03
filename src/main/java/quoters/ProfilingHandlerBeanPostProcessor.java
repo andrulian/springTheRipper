@@ -44,6 +44,7 @@ public class ProfilingHandlerBeanPostProcessor implements BeanPostProcessor{
                                 System.out.println("Все " + (after - before) + " ns.");
                                 return retVal;
                             } else {
+                                System.out.println("НЕ Профилирую");
                                 return method.invoke(bean, args);
                             }
                         }
